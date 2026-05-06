@@ -2,10 +2,11 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 using FinancePlanner.Models;
+using FinancePlanner.Repositories.Interfaces;
 
 namespace FinancePlanner.Repositories
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         public User Register(string username, string password)
         {

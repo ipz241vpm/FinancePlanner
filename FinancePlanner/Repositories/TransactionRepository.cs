@@ -3,11 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Transactions;
 using FinancePlanner.Services;
+using FinancePlanner.Repositories.Interfaces;
 /// <summary>
 /// Репозиторій для управління транзакціями в БД SQLite.
 /// Реалізує патерн Repository для ізоляції логіки доступу до даних.
 /// </summary>
-public class TransactionRepository
+public class TransactionRepository : ITransactionRepository
 {
     public void Add(Transaction transaction)
     {

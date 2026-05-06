@@ -2,6 +2,7 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 using FinancePlanner.Repositories;
+using FinancePlanner.Repositories.Interfaces;
 using FinancePlanner.Services;
 
 namespace FinancePlanner.Forms
@@ -10,11 +11,11 @@ namespace FinancePlanner.Forms
     {
         private TextBox txtUsername;
         private TextBox txtPassword;
-        private UserRepository _userRepository;
+        private IUserRepository _userRepository;
 
-        public AuthForm()
+        public AuthForm(IUserRepository userRepository)
         {
-            _userRepository = new UserRepository();
+            _userRepository = userRepository;
             
             Text = "Авторизація";
             Size = new Size(350, 250);

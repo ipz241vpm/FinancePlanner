@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using FinancePlanner.Models;
 using FinancePlanner.Repositories;
+using FinancePlanner.Repositories.Interfaces;
 
 namespace FinancePlanner.Services
 {
@@ -17,10 +18,10 @@ namespace FinancePlanner.Services
 
     public class CategoryService
     {
-        private readonly CategoryRepository _categoryRepo;
-        private readonly TransactionRepository _transactionRepo;
+        private readonly ICategoryRepository _categoryRepo;
+        private readonly ITransactionRepository _transactionRepo;
 
-        public CategoryService(CategoryRepository categoryRepo, TransactionRepository transactionRepo)
+        public CategoryService(ICategoryRepository categoryRepo, ITransactionRepository transactionRepo)
         {
             _categoryRepo = categoryRepo;
             _transactionRepo = transactionRepo;

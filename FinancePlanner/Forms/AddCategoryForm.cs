@@ -2,6 +2,7 @@ using System;
 using System.Drawing;
 using System.Windows.Forms;
 using FinancePlanner.Repositories;
+using FinancePlanner.Repositories.Interfaces;
 
 namespace FinancePlanner.Forms
 {
@@ -11,14 +12,15 @@ namespace FinancePlanner.Forms
         private TextBox txtName;
         private TextBox txtProjectedAmount;
         private DateTime _selectedDate;
-        private readonly CategoryRepository _categoryRepo = new CategoryRepository();
+        private readonly ICategoryRepository _categoryRepo;
         
         private RadioButton rbAlways;
         private RadioButton rbFromNow;
         private RadioButton rbOnlyThis;
 
-        public AddCategoryForm(string type, DateTime selectedDate)
+        public AddCategoryForm(string type, DateTime selectedDate, ICategoryRepository categoryRepository)
         {
+            _categoryRepo = categoryRepository;
             _selectedDate = selectedDate;
             _type = type;
             Text = "Додати категорію";

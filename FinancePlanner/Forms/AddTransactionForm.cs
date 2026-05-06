@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 using FinancePlanner.Repositories;
+using FinancePlanner.Repositories.Interfaces;
 
 namespace FinancePlanner.Forms
 {
@@ -20,10 +21,14 @@ namespace FinancePlanner.Forms
         private ComboBox cmbCategory;
         private DateTimePicker dtpDate;
         private string _internalTransactionType; // "Income" or "Expense"
-        private CategoryRepository _categoryRepo;
+        private ICategoryRepository _categoryRepo;
         private Transaction _existingTransaction;
 
-        public AddTransactionForm(string transactionType, Transaction existingTransaction = null)
+        public AddTransactionForm(
+            string transactionType, 
+            ICategoryRepository categoryRepo,
+            Transaction existingTransaction = null
+            )
         {
             _existingTransaction = existingTransaction;
             
@@ -38,7 +43,7 @@ namespace FinancePlanner.Forms
                 Text = $"Додати {transactionType}";
             }
 
-            _categoryRepo = new CategoryRepository();
+            _categoryRepo = categoryRepo;
 
             Size = new Size(350, 360);
             StartPosition = FormStartPosition.CenterParent;
@@ -141,7 +146,7 @@ namespace FinancePlanner.Forms
 
         private void BtnAddCategory_Click(object sender, EventArgs e)
         {
-            using (var form = new AddCategoryForm(_internalTransactionType, dtpDate.Value))
+            using (var form = new AddCategoryForm(_internalTransactionType, dtpDate.Value, _categoryRepo))
             {
                 if (form.ShowDialog() == DialogResult.OK)
                 {
