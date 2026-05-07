@@ -1,8 +1,9 @@
+using FinancePlanner.Models;
+using FinancePlanner.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using FinancePlanner.Models;
-using FinancePlanner.Repositories;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace FinancePlanner.Services
 {
@@ -98,51 +99,33 @@ namespace FinancePlanner.Services
             }
         }
 
-        public void DeleteCategory(int categoryId, CategoryScope scope, int currentYear, int currentMonth, int? reassignToId = null)
+        public void DeleteCategory(int categoryId, CategoryScope scope, int year, int month, int? reassignToId = null)
         {
             var category = _categoryRepo.GetAll().FirstOrDefault(c => c.Id == categoryId);
             if (category == null) return;
 
-            if (scope == CategoryScope.All)
+            switch (scope)
             {
-                _transactionRepo.ReassignTransactions(categoryId, reassignToId);
-                _categoryRepo.Delete(categoryId);
-            }
-            else if (scope == CategoryScope.ThisMonth)
-            {
-                _transactionRepo.ReassignTransactions(categoryId, reassignToId, currentYear, currentMonth);
+                case CategoryScope.All:
+                    _transactionRepo.ReassignTransactions(categoryId, reassignToId);
+                    _categoryRepo.Delete(categoryId);
+                    break;
 
-                var (prevYear, prevMonth) = PreviousYearMonth(currentYear, currentMonth);
-                var (nextYear, nextMonth) = NextYearMonth(currentYear, currentMonth);
+                case CategoryScope.ThisMonth:
+                    _transactionRepo.ReassignTransactions(categoryId, reassignToId, year, month);
 
-                // Створюємо продовження категорії, якщо вона не закінчується раніше
-                if (category.EndYear == 0 || category.EndYear > nextYear || (category.EndYear == nextYear && category.EndMonth >= nextMonth))
-                {
-                    var catContinuation = new Category
+                    var (nextY, nextM) = NextYearMonth(year, month);
+                    if (IsDateBeforeOrEqual(nextY, nextM, category.EndYear, category.EndMonth) || category.EndYear == 0)
                     {
-                        Name = category.Name,
-                        Type = category.Type,
-                        ProjectedAmount = category.ProjectedAmount,
-                        StartMonth = nextMonth,
-                        StartYear = nextYear,
-                        EndMonth = category.EndMonth,
-                        EndYear = category.EndYear
-                    };
-                    _categoryRepo.Add(catContinuation);
-                }
+                        CreateContinuation(category, nextY, nextM);
+                    }
+                    CloseCategoryAt(category, year, month);
+                    break;
 
-                category.EndMonth = prevMonth;
-                category.EndYear = prevYear;
-                _categoryRepo.Update(category);
-            }
-            else if (scope == CategoryScope.FromNowOn)
-            {
-                _transactionRepo.ReassignTransactions(categoryId, reassignToId, currentYear, currentMonth, true);
-
-                var (prevYear, prevMonth) = PreviousYearMonth(currentYear, currentMonth);
-                category.EndMonth = prevMonth;
-                category.EndYear = prevYear;
-                _categoryRepo.Update(category);
+                case CategoryScope.FromNowOn:
+                    _transactionRepo.ReassignTransactions(categoryId, reassignToId, year, month, true);
+                    CloseCategoryAt(category, year, month);
+                    break;
             }
         }
 
@@ -158,40 +141,78 @@ namespace FinancePlanner.Services
             return (year, month + 1);
         }
 
-        public void RenameCategory(int categoryId, string newName, CategoryScope scope, int currentYear, int currentMonth)
+        public void RenameCategory(int categoryId, string newName, CategoryScope scope, int year, int month)
         {
             var category = _categoryRepo.GetAll().FirstOrDefault(c => c.Id == categoryId);
             if (category == null) return;
 
-            if (scope == CategoryScope.All)
+            switch (scope)
             {
-                category.Name = newName;
-                _categoryRepo.Update(category);
+                case CategoryScope.All:
+                    category.Name = newName;
+                    _categoryRepo.Update(category);
+                    break;
+
+                case CategoryScope.ThisMonth:
+                    int? newId = CreateCategoryCopy(category, newName, year, month, year, month);
+                    if (newId.HasValue)
+                        DeleteCategory(categoryId, CategoryScope.ThisMonth, year, month, newId.Value);
+                    break;
+
+                case CategoryScope.FromNowOn:
+                    int? futureId = CreateCategoryCopy(category, newName, year, month);
+                    if (futureId.HasValue)
+                        DeleteCategory(categoryId, CategoryScope.FromNowOn, year, month, futureId.Value);
+                    break;
             }
-            else if (scope == CategoryScope.ThisMonth)
+        }
+        private void CloseCategoryAt(Category category, int year, int month)
+        {
+            var (prevYear, prevMonth) = PreviousYearMonth(year, month);
+            category.EndYear = prevYear;
+            category.EndMonth = prevMonth;
+            _categoryRepo.Update(category);
+        }
+
+        private void CreateContinuation(Category original, int startYear, int startMonth)
+        {
+            var continuation = new Category
             {
-                // Створюємо нову категорію на 1 місяць
-                var tempCat = new Category { Name = newName, Type = category.Type, ProjectedAmount = category.ProjectedAmount, StartMonth = currentMonth, StartYear = currentYear, EndMonth = currentMonth, EndYear = currentYear };
-                _categoryRepo.Add(tempCat);
-                
-                var newCat = _categoryRepo.GetAll().OrderByDescending(c => c.Id).FirstOrDefault(c => c.Name == newName);
-                int? newId = newCat?.Id;
-
-                // Виключаємо цей місяць з оригінальної категорії та переносимо транзакції
-                DeleteCategory(categoryId, CategoryScope.ThisMonth, currentYear, currentMonth, newId);
-            }
-            else if (scope == CategoryScope.FromNowOn)
+                Name = original.Name,
+                Type = original.Type,
+                ProjectedAmount = original.ProjectedAmount,
+                StartYear = startYear,
+                StartMonth = startMonth,
+                EndYear = original.EndYear,
+                EndMonth = original.EndMonth
+            };
+            _categoryRepo.Add(continuation);
+        }
+        private bool IsDateBeforeOrEqual(int y1, int m1, int y2, int m2)
+        {
+            if (y2 == 0) return true;
+            return y1 < y2 || (y1 == y2 && m1 <= m2);
+        }
+        private int? CreateCategoryCopy(Category original, string newName, int startYear, int startMonth, int? endYear = null, int? endMonth = null)
+        {
+            var newCat = new Category
             {
-                // Створюємо нову категорію
-                var newCat = new Category { Name = newName, Type = category.Type, ProjectedAmount = category.ProjectedAmount, StartMonth = currentMonth, StartYear = currentYear, EndMonth = category.EndMonth, EndYear = category.EndYear };
-                _categoryRepo.Add(newCat);
+                Name = newName,
+                Type = original.Type,
+                ProjectedAmount = original.ProjectedAmount,
+                StartYear = startYear,
+                StartMonth = startMonth,
+                EndYear = endYear ?? original.EndYear,
+                EndMonth = endMonth ?? original.EndMonth
+            };
 
-                var newCatCreated = _categoryRepo.GetAll().OrderByDescending(c => c.Id).FirstOrDefault(c => c.Name == newName);
-                int? newId = newCatCreated?.Id;
+            _categoryRepo.Add(newCat);
 
-                // Завершуємо стару та переносимо транзакції
-                DeleteCategory(categoryId, CategoryScope.FromNowOn, currentYear, currentMonth, newId);
-            }
+            var created = _categoryRepo.GetAll()
+                .OrderByDescending(c => c.Id)
+                .FirstOrDefault(c => c.Name == newName);
+
+            return created?.Id;
         }
     }
 }
