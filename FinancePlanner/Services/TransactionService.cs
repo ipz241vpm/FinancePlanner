@@ -1,16 +1,17 @@
 using System;
 using System.Collections.Generic;
 using FinancePlanner.Factories;
+using FinancePlanner.Repositories.Interfaces;
 using FinancePlanner.Services.Strategies;
 
 namespace FinancePlanner.Services
 {
     public class TransactionService
     {
-        private readonly TransactionRepository _repository;
+        private readonly ITransactionRepository _repository;
         private readonly TransactionFactory _factory;
 
-        public TransactionService(TransactionRepository repository, TransactionFactory factory)
+        public TransactionService(ITransactionRepository repository, TransactionFactory factory)
         {
             _repository = repository;
             _factory = factory;

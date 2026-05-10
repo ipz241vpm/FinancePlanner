@@ -1,10 +1,11 @@
 using Microsoft.Data.Sqlite;
 using System.Collections.Generic;
 using FinancePlanner.Services;
+using FinancePlanner.Repositories.Interfaces;
 
 namespace FinancePlanner.Repositories
 {
-    public class CategoryRepository
+    public class CategoryRepository : ICategoryRepository
     {
         public void Add(Category category)
         {

@@ -1,4 +1,5 @@
 ﻿using FinancePlanner.Repositories;
+using FinancePlanner.Repositories.Interfaces;
 
 namespace FinancePlanner.Services.Strategies
 {
@@ -17,7 +18,7 @@ namespace FinancePlanner.Services.Strategies
         /// <param name="categoryRepo">Репозиторій категорій.</param>
         /// <param name="transactionRepo">Репозиторій транзакцій.</param>
         void ExecuteDelete(Category category, int currentYear, int currentMonth, int? reassignToId,
-            CategoryRepository categoryRepo, TransactionRepository transactionRepo);
+            ICategoryRepository categoryRepo, ITransactionRepository transactionRepo);
 
         /// <summary>
         /// Перейменовує категорію відповідно до області застосування.
@@ -29,6 +30,6 @@ namespace FinancePlanner.Services.Strategies
         /// <param name="categoryRepo">Репозиторій категорій.</param>
         /// <param name="transactionRepo">Репозиторій транзакцій.</param>
         void ExecuteRename(Category category, string newName, int currentYear, int currentMonth,
-            CategoryRepository categoryRepo, TransactionRepository transactionRepo);
+            ICategoryRepository categoryRepo, ITransactionRepository transactionRepo);
     }
 }

@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 using FinancePlanner.Repositories;
+using FinancePlanner.Repositories.Interfaces;
 using FinancePlanner.Services;
 
 namespace FinancePlanner.Forms
@@ -17,8 +18,8 @@ namespace FinancePlanner.Forms
 
     public class AnalyticsForm : Form
     {
-        private TransactionRepository _transactionRepo;
-        private CategoryRepository _categoryRepo;
+        private ITransactionRepository _transactionRepo;
+        private ICategoryRepository _categoryRepo;
         private CategoryService _categoryService;
         private Dictionary<int, string> _categoriesDict = new();
         
@@ -30,11 +31,15 @@ namespace FinancePlanner.Forms
         private DateTimePicker _dtpEnd;
         private ComboBox _cmbType;
 
-        public AnalyticsForm()
+        public AnalyticsForm(
+            ITransactionRepository transactionRepository,
+            ICategoryRepository categoryRepository,
+            CategoryService categoryService
+            )
         {
-            _transactionRepo = new TransactionRepository();
-            _categoryRepo = new CategoryRepository();
-            _categoryService = new CategoryService(_categoryRepo, _transactionRepo);
+            _transactionRepo = transactionRepository;
+            _categoryRepo = categoryRepository;
+            _categoryService = categoryService;
 
             Text = "Фінансова Аналітика";
             Size = new Size(850, 650);

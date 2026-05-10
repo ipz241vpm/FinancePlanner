@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using FinancePlanner.Repositories;
+using FinancePlanner.Repositories.Interfaces;
 
 namespace FinancePlanner.Services.Strategies
 {
@@ -9,7 +10,7 @@ namespace FinancePlanner.Services.Strategies
     public class FromNowOnScopeStrategy : ICategoryChangeStrategy
     {
         public void ExecuteDelete(Category category, int currentYear, int currentMonth, int? reassignToId,
-            CategoryRepository categoryRepo, TransactionRepository transactionRepo)
+            ICategoryRepository categoryRepo, ITransactionRepository transactionRepo)
         {
             transactionRepo.ReassignTransactions(category.Id, reassignToId, currentYear, currentMonth, true);
 
@@ -20,7 +21,7 @@ namespace FinancePlanner.Services.Strategies
         }
 
         public void ExecuteRename(Category category, string newName, int currentYear, int currentMonth,
-            CategoryRepository categoryRepo, TransactionRepository transactionRepo)
+            ICategoryRepository categoryRepo, ITransactionRepository transactionRepo)
         {
             var newCat = new Category
             {

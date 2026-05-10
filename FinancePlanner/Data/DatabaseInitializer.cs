@@ -77,7 +77,7 @@ public class DatabaseInitializer
                 cmd.ExecuteNonQuery();
             }
             catch { /* Ігноруємо помилку, якщо колонка вже існує */ }
-        }
+        }   
 
         SafeAddColumn("ALTER TABLE Categories ADD COLUMN IsRecurring INTEGER DEFAULT 1;");
         SafeAddColumn("ALTER TABLE Categories ADD COLUMN TargetMonth INTEGER DEFAULT 0;");

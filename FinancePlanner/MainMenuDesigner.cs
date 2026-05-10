@@ -3,32 +3,35 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 using FinancePlanner.Factories;
-using FinancePlanner.Services;
-using FinancePlanner.Services.Strategies;
 using FinancePlanner.Forms;
 using FinancePlanner.Repositories;
+using FinancePlanner.Repositories.Interfaces;
+using FinancePlanner.Services;
+using FinancePlanner.Services.Strategies;
 
 namespace FinancePlanner
 {
     public class MainMenuDesigner
     {
         private TransactionService _transactionService;
-        private TransactionRepository _repository;
-        private CategoryRepository _categoryRepo;
+        private ITransactionRepository _transactionRepo;
+        private ICategoryRepository _categoryRepo;
         private CategoryService _categoryService;
         private DataGridView _gridTransactions;
         private DataGridView _gridProjections;
         private DateTimePicker _datePicker;
         private System.Collections.Generic.List<Transaction> _currentTransactions;
 
-        public void Setup(Form mainForm)
+        public void Setup(Form mainForm, ICategoryRepository categoryRepo, ITransactionRepository transactionRepo)
         {
+            _transactionRepo = transactionRepo;
+            _categoryRepo = categoryRepo;
+
             // Ініціалізація сервісів для тестування патернів
             var factory = new TransactionFactory();
-            _repository = new TransactionRepository();
-            _transactionService = new TransactionService(_repository, factory);
-            _categoryRepo = new CategoryRepository();
-            _categoryService = new CategoryService(_categoryRepo, _repository);
+            
+            _transactionService = new TransactionService(_transactionRepo, factory);
+            _categoryService = new CategoryService(_categoryRepo, _transactionRepo);
 
             // Налаштування головної форми
             mainForm.Text = $"Finance Planner - Головне меню ({SessionManager.Instance.CurrentUser?.Username})";
@@ -181,7 +184,7 @@ namespace FinancePlanner
             if (e.RowIndex >= 0 && e.RowIndex < _currentTransactions.Count)
             {
                 var transaction = _currentTransactions[e.RowIndex];
-                using (var editForm = new AddTransactionForm(transaction.Type, transaction))
+                using (var editForm = new AddTransactionForm(transaction.Type, _categoryRepo, transaction))
                 {
                     if (editForm.ShowDialog() == DialogResult.OK)
                     {
@@ -242,7 +245,7 @@ namespace FinancePlanner
         private void LoadTransactions()
         {
             var targetDate = _datePicker.Value.Date;
-            var allTransactions = _repository.GetAll();
+            var allTransactions = _transactionRepo.GetAll();
             var allCategories = _categoryRepo.GetAll();
 
             _currentTransactions = allTransactions.Where(t => t.Date.Date == targetDate)
@@ -376,7 +379,7 @@ namespace FinancePlanner
         private void AddCategoryFromMain(string internalTransactionType)
         {
             string typeDisplay = internalTransactionType == "Income" ? "дохід" : "витрату";
-            using (var form = new AddCategoryForm(internalTransactionType, _datePicker.Value))
+            using (var form = new AddCategoryForm(internalTransactionType, _datePicker.Value, _categoryRepo))
             {
                 if (form.ShowDialog() == DialogResult.OK)
                 {
@@ -387,7 +390,7 @@ namespace FinancePlanner
 
         private void BtnAnalytics_Click(object sender, EventArgs e)
         {
-            using (var analyticsForm = new AnalyticsForm())
+            using (var analyticsForm = new AnalyticsForm(_transactionRepo, _categoryRepo, _categoryService))
             {
                 analyticsForm.ShowDialog();
             }
@@ -395,7 +398,7 @@ namespace FinancePlanner
 
         private void BtnIncome_Click(object sender, EventArgs e)
         {
-            using (var addForm = new AddTransactionForm("дохід"))
+            using (var addForm = new AddTransactionForm("дохід", _categoryRepo))
             {
                 if (addForm.ShowDialog() == DialogResult.OK)
                 {
@@ -408,7 +411,7 @@ namespace FinancePlanner
 
         private void BtnExpense_Click(object sender, EventArgs e)
         {
-            using (var addForm = new AddTransactionForm("витрату"))
+            using (var addForm = new AddTransactionForm("витрату", _categoryRepo))
             {
                 if (addForm.ShowDialog() == DialogResult.OK)
                 {
