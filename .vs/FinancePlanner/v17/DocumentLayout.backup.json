@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\services\\strategies\\thismonthscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\thismonthscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\services\\strategies\\allscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\allscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\services\\strategies\\fromnowonscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\fromnowonscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\services\\strategies\\icategorychangestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\icategorychangestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\mainmenudesigner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\mainmenudesigner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\forms\\addcategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\forms\\addcategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\financeplanner\\forms\\authform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -67,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\ibalancecalculationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -97,14 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\forms\\addcategoryform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\forms\\addcategoryform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\momind\\dev\\labs\\sw\u0441\\mkr1\\financeplanner\\financeplanner\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
@@ -170,8 +186,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 35,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThisMonthScopeStrategy.cs",
+              "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ThisMonthScopeStrategy.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\ThisMonthScopeStrategy.cs",
+              "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ThisMonthScopeStrategy.cs",
+              "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\ThisMonthScopeStrategy.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAD4vz0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:14:01.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AllScopeStrategy.cs",
+              "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\AllScopeStrategy.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\AllScopeStrategy.cs",
+              "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\AllScopeStrategy.cs",
+              "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\AllScopeStrategy.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA7wBgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:13:43.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FromNowOnScopeStrategy.cs",
+              "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\FromNowOnScopeStrategy.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\FromNowOnScopeStrategy.cs",
+              "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\FromNowOnScopeStrategy.cs",
+              "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\FromNowOnScopeStrategy.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwBwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:13:14.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICategoryChangeStrategy.cs",
+              "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ICategoryChangeStrategy.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\ICategoryChangeStrategy.cs",
+              "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ICategoryChangeStrategy.cs",
+              "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\ICategoryChangeStrategy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:12:04.938Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -181,8 +249,12 @@
               "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Form1.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Form1.cs",
@@ -195,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "AddTransactionForm.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\AddTransactionForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AddTransactionForm.cs",
@@ -208,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "AddCategoryForm.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\AddCategoryForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AddCategoryForm.cs",
@@ -221,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "AnalyticsForm.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\AnalyticsForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AnalyticsForm.cs",
@@ -233,15 +305,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Form1.resx",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Form1.resx",
               "RelativeDocumentMoniker": "FinancePlanner\\Form1.resx",
               "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Form1.resx",
               "RelativeToolTip": "FinancePlanner\\Form1.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2026-05-06T11:02:14.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-06T11:02:14.515Z"
             },
             {
               "$type": "Document",
@@ -251,13 +322,14 @@
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\CategoryService.cs",
               "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\CategoryService.cs",
               "RelativeToolTip": "FinancePlanner\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAswMYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAtwG8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T10:59:03.948Z"
+              "WhenOpened": "2026-05-06T10:59:03.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\Interfaces\\IUserRepository.cs",
@@ -269,7 +341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "ITransactionRepository.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Repositories\\Interfaces\\ITransactionRepository.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\Interfaces\\ITransactionRepository.cs",
@@ -281,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Repositories\\Interfaces\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\Interfaces\\ICategoryRepository.cs",
@@ -293,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Repositories\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\Interfaces\\IRepository.cs",
@@ -305,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "AuthForm.resx",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\AuthForm.resx",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AuthForm.resx",
@@ -316,7 +388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "AddCategoryForm.resx",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\AddCategoryForm.resx",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AddCategoryForm.resx",
@@ -327,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "CategoryScopeForm.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\CategoryScopeForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\CategoryScopeForm.cs",
@@ -340,7 +412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "AddTransactionForm.resx",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\AddTransactionForm.resx",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AddTransactionForm.resx",
@@ -351,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "AuthForm.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\AuthForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AuthForm.cs",
@@ -364,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "CategoryScope.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Models\\CategoryScope.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Models\\CategoryScope.cs",
@@ -376,20 +448,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "MainMenuDesigner.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\MainMenuDesigner.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\MainMenuDesigner.cs",
               "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\MainMenuDesigner.cs",
               "RelativeToolTip": "FinancePlanner\\MainMenuDesigner.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAIA8wBsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T10:36:36.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "CategoryScopeForm.cs [Design]",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\CategoryScopeForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\CategoryScopeForm.cs",
@@ -400,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "AuthForm.cs [Design]",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\AuthForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AuthForm.cs",
@@ -411,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "DatabaseConnectionFactory.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Data\\DatabaseConnectionFactory.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Data\\DatabaseConnectionFactory.cs",
@@ -423,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "DatabaseConnection.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Data\\DatabaseConnection.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Data\\DatabaseConnection.cs",
@@ -435,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "MonthlyBalanceStrategy.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\MonthlyBalanceStrategy.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\MonthlyBalanceStrategy.cs",
@@ -447,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "TotalBalanceStrategy.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\TotalBalanceStrategy.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\TotalBalanceStrategy.cs",
@@ -459,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "ExpensesOnlyStrategy.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ExpensesOnlyStrategy.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\ExpensesOnlyStrategy.cs",
@@ -471,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "IBalanceCalculationStrategy.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\IBalanceCalculationStrategy.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\IBalanceCalculationStrategy.cs",
@@ -483,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "TransactionService.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\TransactionService.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\TransactionService.cs",
@@ -495,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "SessionManager.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Services\\SessionManager.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\SessionManager.cs",
@@ -507,31 +579,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\UserRepository.cs",
               "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "FinancePlanner\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T09:03:46.027Z"
+              "WhenOpened": "2026-04-29T09:03:46.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\CategoryRepository.cs",
               "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Repositories\\CategoryRepository.cs",
               "RelativeToolTip": "FinancePlanner\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T08:59:22.969Z"
+              "WhenOpened": "2026-04-29T08:59:22.969Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "TransactionFactory.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Factories\\TransactionFactory.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Factories\\TransactionFactory.cs",
@@ -543,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "Budget.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Models\\Budget.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Models\\Budget.cs",
@@ -555,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Models\\Category.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Models\\Category.cs",
@@ -567,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "Transaction.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Models\\Transaction.cs",
@@ -579,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Form1.Designer.cs",
@@ -587,24 +661,24 @@
               "RelativeToolTip": "FinancePlanner\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T18:32:59.55Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T18:32:59.55Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 1,
               "Title": "TransactionRepository.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Repositories\\TransactionRepository.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\TransactionRepository.cs",
               "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Repositories\\TransactionRepository.cs",
               "RelativeToolTip": "FinancePlanner\\Repositories\\TransactionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAowDkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T18:32:31.118Z"
+              "WhenOpened": "2026-04-22T18:32:31.118Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Program.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Program.cs",
@@ -612,12 +686,11 @@
               "RelativeToolTip": "FinancePlanner\\Program.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAowBUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T18:24:44.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T18:24:44.432Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "DatabaseInitializer.cs",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Data\\DatabaseInitializer.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Data\\DatabaseInitializer.cs",
@@ -629,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "AddTransactionForm.cs [Design]",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\AddTransactionForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AddTransactionForm.cs",
@@ -640,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "AddCategoryForm.cs [Design]",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Forms\\AddCategoryForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AddCategoryForm.cs",
@@ -651,15 +724,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Form1.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Form1.cs",
               "ToolTip": "D:\\momind\\Dev\\Labs\\SW\u0421\\MKR1\\FinancePlanner\\FinancePlanner\\Form1.cs [Design]",
               "RelativeToolTip": "FinancePlanner\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T18:12:04.406Z",
-              "EditorCaption": " [Design]"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2026-04-22T18:12:04.406Z"
             }
           ]
         }

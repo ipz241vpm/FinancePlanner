@@ -26,7 +26,6 @@ namespace FinancePlanner.Repositories
             }
             catch
             {
-                // Помилка найімовірніше через дублювання унікального Username
                 return null;
             }
         }
