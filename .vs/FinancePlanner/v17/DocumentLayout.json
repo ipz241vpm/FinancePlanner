@@ -1,89 +1,109 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\",
+  "WorkspaceRootPath": "D:\\FinancePlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\strategies\\fromnowonscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\fromnowonscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\strategies\\thismonthscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\thismonthscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\strategies\\allscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\allscopestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\strategies\\icategorychangestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\icategorychangestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\financeplanner\\forms\\addcategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|D:\\FinancePlanner\\financeplanner\\forms\\addcategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\forms\\addcategoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\factories\\transactionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\factories\\transactionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\factories\\transactionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\data\\databaseconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\data\\databaseconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\data\\databaseconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\data\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\services\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\sessionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\services\\strategies\\monthlybalancestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\strategies\\monthlybalancestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\monthlybalancestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\services\\strategies\\totalbalancestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\strategies\\totalbalancestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\totalbalancestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\services\\strategies\\expensesonlystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\strategies\\expensesonlystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\expensesonlystrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\services\\strategies\\ibalancecalculationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\services\\strategies\\ibalancecalculationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\services\\strategies\\ibalancecalculationstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\financeplanner\\forms\\addtransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|D:\\FinancePlanner\\financeplanner\\forms\\addtransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\forms\\addtransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|c:\\users\\vahnu\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u043F\u043E\u043B\u0456\u0442\u0435\u0445\\visual kpz\\financeplanner\\financeplanner\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|d:\\financeplanner\\financeplanner\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\financeplanner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|D:\\FinancePlanner\\financeplanner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2A66A34A-77CF-4EB7-BD7A-A77C7E7FB830}|FinancePlanner\\FinancePlanner.csproj|solutionrelative:financeplanner\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -94,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,37 +122,76 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\CategoryService.cs",
+              "RelativeToolTip": "FinancePlanner\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T14:16:50.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FromNowOnScopeStrategy.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\FromNowOnScopeStrategy.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\FromNowOnScopeStrategy.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\FromNowOnScopeStrategy.cs",
+              "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\FromNowOnScopeStrategy.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T14:16:31.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThisMonthScopeStrategy.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ThisMonthScopeStrategy.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\ThisMonthScopeStrategy.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ThisMonthScopeStrategy.cs",
+              "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\ThisMonthScopeStrategy.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAqwEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T14:16:21.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AllScopeStrategy.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\AllScopeStrategy.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\AllScopeStrategy.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\AllScopeStrategy.cs",
+              "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\AllScopeStrategy.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T14:16:10.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DatabaseConnectionFactory.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Data\\DatabaseConnectionFactory.cs",
-              "RelativeDocumentMoniker": "FinancePlanner\\Data\\DatabaseConnectionFactory.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Data\\DatabaseConnectionFactory.cs",
-              "RelativeToolTip": "FinancePlanner\\Data\\DatabaseConnectionFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ICategoryChangeStrategy.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ICategoryChangeStrategy.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\ICategoryChangeStrategy.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ICategoryChangeStrategy.cs",
+              "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\ICategoryChangeStrategy.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T11:10:53.399Z",
+              "WhenOpened": "2026-05-04T14:15:54.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DatabaseConnection.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Data\\DatabaseConnection.cs",
-              "RelativeDocumentMoniker": "FinancePlanner\\Data\\DatabaseConnection.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Data\\DatabaseConnection.cs",
-              "RelativeToolTip": "FinancePlanner\\Data\\DatabaseConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-02T11:10:52.551Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "MonthlyBalanceStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\MonthlyBalanceStrategy.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\MonthlyBalanceStrategy.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\MonthlyBalanceStrategy.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\MonthlyBalanceStrategy.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\MonthlyBalanceStrategy.cs",
               "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\MonthlyBalanceStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -140,11 +199,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "TotalBalanceStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\TotalBalanceStrategy.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\TotalBalanceStrategy.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\TotalBalanceStrategy.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\TotalBalanceStrategy.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\TotalBalanceStrategy.cs",
               "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\TotalBalanceStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -152,11 +211,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ExpensesOnlyStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ExpensesOnlyStrategy.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ExpensesOnlyStrategy.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\ExpensesOnlyStrategy.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ExpensesOnlyStrategy.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\ExpensesOnlyStrategy.cs",
               "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\ExpensesOnlyStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -164,11 +223,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "IBalanceCalculationStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\IBalanceCalculationStrategy.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\IBalanceCalculationStrategy.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\Strategies\\IBalanceCalculationStrategy.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\IBalanceCalculationStrategy.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\Strategies\\IBalanceCalculationStrategy.cs",
               "RelativeToolTip": "FinancePlanner\\Services\\Strategies\\IBalanceCalculationStrategy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -176,11 +235,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "TransactionService.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\TransactionService.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\TransactionService.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Services\\TransactionService.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\TransactionService.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\TransactionService.cs",
               "RelativeToolTip": "FinancePlanner\\Services\\TransactionService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -188,35 +247,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SessionManager.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\SessionManager.cs",
-              "RelativeDocumentMoniker": "FinancePlanner\\Services\\SessionManager.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Services\\SessionManager.cs",
-              "RelativeToolTip": "FinancePlanner\\Services\\SessionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T09:04:01.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "FinancePlanner\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T09:03:46.027Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Repositories\\CategoryRepository.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Repositories\\CategoryRepository.cs",
               "RelativeToolTip": "FinancePlanner\\Repositories\\CategoryRepository.cs",
               "ViewState": "AgIAAHMAAAAAAAAAAAAkwIEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -225,24 +260,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TransactionFactory.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Factories\\TransactionFactory.cs",
-              "RelativeDocumentMoniker": "FinancePlanner\\Factories\\TransactionFactory.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Factories\\TransactionFactory.cs",
-              "RelativeToolTip": "FinancePlanner\\Factories\\TransactionFactory.cs",
+              "DocumentIndex": 10,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Data\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Data\\DatabaseConnection.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Data\\DatabaseConnection.cs",
+              "RelativeToolTip": "FinancePlanner\\Data\\DatabaseConnection.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T08:20:50.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-02T11:10:52.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 9,
+              "Title": "DatabaseConnectionFactory.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Data\\DatabaseConnectionFactory.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Data\\DatabaseConnectionFactory.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Data\\DatabaseConnectionFactory.cs",
+              "RelativeToolTip": "FinancePlanner\\Data\\DatabaseConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-02T11:10:53.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SessionManager.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Services\\SessionManager.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Services\\SessionManager.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Services\\SessionManager.cs",
+              "RelativeToolTip": "FinancePlanner\\Services\\SessionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T09:04:01.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "FinancePlanner\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T09:03:46.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionFactory.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Factories\\TransactionFactory.cs",
+              "RelativeDocumentMoniker": "FinancePlanner\\Factories\\TransactionFactory.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Factories\\TransactionFactory.cs",
+              "RelativeToolTip": "FinancePlanner\\Factories\\TransactionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-29T08:20:50.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Budget.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Models\\Budget.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Models\\Budget.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Models\\Budget.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Models\\Budget.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Models\\Budget.cs",
               "RelativeToolTip": "FinancePlanner\\Models\\Budget.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -250,11 +332,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Models\\Category.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Models\\Category.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Models\\Category.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Models\\Category.cs",
               "RelativeToolTip": "FinancePlanner\\Models\\Category.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -262,11 +344,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Models\\Transaction.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Models\\Transaction.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Models\\Transaction.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Models\\Transaction.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Models\\Transaction.cs",
               "RelativeToolTip": "FinancePlanner\\Models\\Transaction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -274,11 +356,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Form1.Designer.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Form1.Designer.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Form1.Designer.cs",
               "RelativeToolTip": "FinancePlanner\\Form1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -286,11 +368,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Repositories\\TransactionRepository.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Repositories\\TransactionRepository.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Repositories\\TransactionRepository.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Repositories\\TransactionRepository.cs",
               "RelativeToolTip": "FinancePlanner\\Repositories\\TransactionRepository.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAYwFQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -298,11 +380,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Program.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Program.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Program.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Program.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Program.cs",
               "RelativeToolTip": "FinancePlanner\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -310,48 +392,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "DatabaseInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Data\\DatabaseInitializer.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Data\\DatabaseInitializer.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Data\\DatabaseInitializer.cs",
-              "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Data\\DatabaseInitializer.cs",
+              "ToolTip": "D:\\FinancePlanner\\FinancePlanner\\Data\\DatabaseInitializer.cs",
               "RelativeToolTip": "FinancePlanner\\Data\\DatabaseInitializer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T18:14:25.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-22T18:14:25.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "AddTransactionForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Forms\\AddTransactionForm.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Forms\\AddTransactionForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AddTransactionForm.cs",
               "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Forms\\AddTransactionForm.cs [Design]",
-              "RelativeToolTip": "FinancePlanner\\Forms\\AddTransactionForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T08:59:19.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AddCategoryForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Forms\\AddCategoryForm.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Forms\\AddCategoryForm.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Forms\\AddCategoryForm.cs",
               "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Forms\\AddCategoryForm.cs [Design]",
-              "RelativeToolTip": "FinancePlanner\\Forms\\AddCategoryForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T08:59:12.021Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-04-29T08:59:12.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Form1.cs",
+              "DocumentMoniker": "D:\\FinancePlanner\\FinancePlanner\\Form1.cs",
               "RelativeDocumentMoniker": "FinancePlanner\\Form1.cs",
               "ToolTip": "C:\\Users\\vahnu\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\\u041F\u043E\u043B\u0456\u0442\u0435\u0445\\Visual KPZ\\FinancePlanner\\FinancePlanner\\Form1.cs [Design]",
-              "RelativeToolTip": "FinancePlanner\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-22T18:12:04.406Z"
             }
