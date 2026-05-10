@@ -2,7 +2,6 @@ using System;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using FinancePlanner.Factories;
 using FinancePlanner.Forms;
 using FinancePlanner.Repositories;
 using FinancePlanner.Repositories.Interfaces;
@@ -27,10 +26,7 @@ namespace FinancePlanner
             _transactionRepo = transactionRepo;
             _categoryRepo = categoryRepo;
 
-            // Ініціалізація сервісів для тестування патернів
-            var factory = new TransactionFactory();
-            
-            _transactionService = new TransactionService(_transactionRepo, factory);
+            _transactionService = new TransactionService(_transactionRepo);
             _categoryService = new CategoryService(_categoryRepo, _transactionRepo);
 
             // Налаштування головної форми
