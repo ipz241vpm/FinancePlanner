@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using FinancePlanner.Factories;
+using FinancePlanner.Models.Factories;
 using FinancePlanner.Repositories.Interfaces;
 using FinancePlanner.Services.Strategies;
 
@@ -9,25 +9,25 @@ namespace FinancePlanner.Services
     public class TransactionService
     {
         private readonly ITransactionRepository _repository;
-        private readonly TransactionFactory _factory;
 
-        public TransactionService(ITransactionRepository repository, TransactionFactory factory)
+        public TransactionService(ITransactionRepository repository)
         {
             _repository = repository;
-            _factory = factory;
         }
 
         // Додавання доходу за конкретний день
         public void AddIncomeForDay(decimal amount, DateTime specificDate, string description, int categoryId = 0)
         {
-            var income = _factory.CreateIncome(amount, specificDate, description, categoryId);
+            var factory = new IncomeFactory();
+            var income = factory.CreateTransaction(amount, specificDate, description, categoryId);
             _repository.Add(income);
         }
 
         // Додавання витрати за конкретний день
         public void AddExpenseForDay(decimal amount, DateTime specificDate, string description, int categoryId = 0)
         {
-            var expense = _factory.CreateExpense(amount, specificDate, description, categoryId);
+            var factory = new ExpenseFactory();
+            var expense = factory.CreateTransaction(amount, specificDate, description, categoryId);
             _repository.Add(expense);
         }
 
