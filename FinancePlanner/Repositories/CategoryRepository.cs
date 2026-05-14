@@ -41,18 +41,7 @@ namespace FinancePlanner.Repositories
             using var reader = command.ExecuteReader();
             while (reader.Read())
             {
-                list.Add(new Category
-                {
-                    Id = reader.GetInt32(0),
-                    Name = reader.GetString(1),
-                    Type = reader.GetString(2),
-                    UserId = reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
-                    ProjectedAmount = reader.IsDBNull(4) ? 0m : reader.GetDecimal(4),
-                    StartMonth = reader.IsDBNull(5) ? 0 : reader.GetInt32(5),
-                    StartYear = reader.IsDBNull(6) ? 0 : reader.GetInt32(6),
-                    EndMonth = reader.IsDBNull(7) ? 0 : reader.GetInt32(7),
-                    EndYear = reader.IsDBNull(8) ? 0 : reader.GetInt32(8)
-                });
+                list.Add(MapCategory(reader));
             }
             
             return list;
@@ -70,18 +59,7 @@ namespace FinancePlanner.Repositories
             using var reader = command.ExecuteReader();
             while (reader.Read())
             {
-                list.Add(new Category
-                {
-                    Id = reader.GetInt32(0),
-                    Name = reader.GetString(1),
-                    Type = reader.GetString(2),
-                    UserId = reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
-                    ProjectedAmount = reader.IsDBNull(4) ? 0m : reader.GetDecimal(4),
-                    StartMonth = reader.IsDBNull(5) ? 0 : reader.GetInt32(5),
-                    StartYear = reader.IsDBNull(6) ? 0 : reader.GetInt32(6),
-                    EndMonth = reader.IsDBNull(7) ? 0 : reader.GetInt32(7),
-                    EndYear = reader.IsDBNull(8) ? 0 : reader.GetInt32(8)
-                });
+                list.Add(MapCategory(reader));
             }
             
             return list;
@@ -129,6 +107,21 @@ namespace FinancePlanner.Repositories
             command.Parameters.AddWithValue("$userId", currentUserId);
             
             command.ExecuteNonQuery();
+        }
+        private static Category MapCategory(SqliteDataReader reader)
+        {
+            return new Category
+            {
+                Id = reader.GetInt32(0),
+                Name = reader.GetString(1),
+                Type = reader.GetString(2),
+                UserId = reader.IsDBNull(3) ? 0 : reader.GetInt32(3),
+                ProjectedAmount = reader.IsDBNull(4) ? 0m : reader.GetDecimal(4),
+                StartMonth = reader.IsDBNull(5) ? 0 : reader.GetInt32(5),
+                StartYear = reader.IsDBNull(6) ? 0 : reader.GetInt32(6),
+                EndMonth = reader.IsDBNull(7) ? 0 : reader.GetInt32(7),
+                EndYear = reader.IsDBNull(8) ? 0 : reader.GetInt32(8)
+            };
         }
     }
 }

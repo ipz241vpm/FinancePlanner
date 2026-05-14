@@ -30,7 +30,7 @@ namespace FinancePlanner.Forms
         private DateTimePicker _dtpStart;
         private DateTimePicker _dtpEnd;
         private ComboBox _cmbType;
-
+        private readonly EventHandler _cmbTypeSelectedIndexChanged;
         public AnalyticsForm(
             ITransactionRepository transactionRepository,
             ICategoryRepository categoryRepository,
@@ -40,6 +40,7 @@ namespace FinancePlanner.Forms
             _transactionRepo = transactionRepository;
             _categoryRepo = categoryRepository;
             _categoryService = categoryService;
+            _cmbTypeSelectedIndexChanged = (s, e) => LoadAnalytics();
 
             Text = "Фінансова Аналітика";
             Size = new Size(850, 650);
@@ -62,7 +63,7 @@ namespace FinancePlanner.Forms
 
             _dtpStart.ValueChanged += (s, e) => { LoadFilters(); LoadAnalytics(); };
             _dtpEnd.ValueChanged += (s, e) => { LoadFilters(); LoadAnalytics(); };
-            _cmbType.SelectedIndexChanged += (s, e) => LoadAnalytics();
+            _cmbType.SelectedIndexChanged += _cmbTypeSelectedIndexChanged;
 
             headerPanel.Controls.Add(title);
             headerPanel.Controls.Add(lblFrom);
@@ -175,8 +176,8 @@ namespace FinancePlanner.Forms
             _categoriesDict = allCategories.ToDictionary(c => c.Id, c => c.Name);
 
             // Тимчасово відключаємо обробник, щоб уникнути подвійного виклику LoadAnalytics
-            _cmbType.SelectedIndexChanged -= (s, e) => LoadAnalytics();
-            
+            _cmbType.SelectedIndexChanged -= _cmbTypeSelectedIndexChanged;
+
             _cmbType.DataSource = options;
 
             // Намагаємося відновити попередній вибір за назвою та типом
@@ -196,7 +197,7 @@ namespace FinancePlanner.Forms
                 _cmbType.SelectedIndex = 0;
             }
 
-            _cmbType.SelectedIndexChanged += (s, e) => LoadAnalytics();
+            _cmbType.SelectedIndexChanged += _cmbTypeSelectedIndexChanged;
         }
 
         private Label CreateSummaryCard(TableLayoutPanel parent, string title, Color color, int column)
