@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using FinancePlanner.Models;
 using FinancePlanner.Repositories;
@@ -104,24 +105,59 @@ namespace FinancePlanner.Services
 
         public void DeleteCategory(int categoryId, CategoryScope scope, int currentYear, int currentMonth, int? reassignToId = null)
         {
-            var category = _categoryRepo.GetAll().FirstOrDefault(c => c.Id == categoryId);
-            if (category == null) return;
-
-            if (_strategies.TryGetValue(scope, out var strategy))
-            {
-                strategy.ExecuteDelete(category, currentYear, currentMonth, reassignToId, _categoryRepo, _transactionRepo);
-            }
+            ExecuteScopedCategoryChange(
+                categoryId,
+                scope,
+                (category, strategy) => strategy.ExecuteDelete(
+                    category,
+                    currentYear,
+                    currentMonth,
+                    reassignToId,
+                    _categoryRepo,
+                    _transactionRepo));
         }
 
         public void RenameCategory(int categoryId, string newName, CategoryScope scope, int currentYear, int currentMonth)
         {
-            var category = _categoryRepo.GetAll().FirstOrDefault(c => c.Id == categoryId);
-            if (category == null) return;
+            ExecuteScopedCategoryChange(
+                categoryId,
+                scope,
+                (category, strategy) => strategy.ExecuteRename(
+                    category,
+                    newName,
+                    currentYear,
+                    currentMonth,
+                    _categoryRepo,
+                    _transactionRepo));
+        }
 
-            if (_strategies.TryGetValue(scope, out var strategy))
+        private void ExecuteScopedCategoryChange(
+            int categoryId,
+            CategoryScope scope,
+            Action<Category, ICategoryChangeStrategy> operation)
+        {
+            if (!TryGetCategoryAndStrategy(categoryId, scope, out var category, out var strategy))
             {
-                strategy.ExecuteRename(category, newName, currentYear, currentMonth, _categoryRepo, _transactionRepo);
+                return;
             }
+
+            operation(category, strategy);
+        }
+
+        private bool TryGetCategoryAndStrategy(
+            int categoryId,
+            CategoryScope scope,
+            [NotNullWhen(true)] out Category? category,
+            [NotNullWhen(true)] out ICategoryChangeStrategy? strategy)
+        {
+            category = _categoryRepo.GetAll().FirstOrDefault(c => c.Id == categoryId);
+            strategy = null;
+            if (category == null)
+            {
+                return false;
+            }
+
+            return _strategies.TryGetValue(scope, out strategy);
         }
     }
 }
