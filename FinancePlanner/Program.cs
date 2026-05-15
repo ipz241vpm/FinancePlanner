@@ -1,6 +1,7 @@
 using System;
 using System.Windows.Forms;
 using FinancePlanner.Repositories;
+using FinancePlanner.Services;
 
 namespace FinancePlanner
 {
@@ -19,16 +20,18 @@ namespace FinancePlanner
             // Ініціалізуємо БД до запуску вікон
             DatabaseInitializer.Initialize();
 
+            ICurrentUserProvider userProvider = new SessionCurrentUserProvider();
+
             var userRepo = new UserRepository();
-            var categoryRepo = new CategoryRepository();
-            var transactionRepo = new TransactionRepository();
+            var categoryRepo = new CategoryRepository(userProvider);
+            var transactionRepo = new TransactionRepository(userProvider);
 
             // Відкриваємо форму авторизації
             using (var authForm = new Forms.AuthForm(userRepo))
             {
                 if (authForm.ShowDialog() == DialogResult.OK)
                 {
-                    Application.Run(new Form1(categoryRepo, transactionRepo));
+                    Application.Run(new Form1(categoryRepo, transactionRepo, userProvider));
                 }
             }
         }
