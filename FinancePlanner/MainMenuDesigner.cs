@@ -21,7 +21,12 @@ namespace FinancePlanner
         private DateTimePicker _datePicker;
         private System.Collections.Generic.List<Transaction> _currentTransactions;
 
-        public void Setup(Form mainForm, ICategoryRepository categoryRepo, ITransactionRepository transactionRepo)
+        public void Setup(
+            Form mainForm,
+            ICategoryRepository categoryRepo,
+            ITransactionRepository transactionRepo,
+            ICurrentUserProvider userProvider
+        )
         {
             _transactionRepo = transactionRepo;
             _categoryRepo = categoryRepo;
@@ -30,7 +35,8 @@ namespace FinancePlanner
             _categoryService = new CategoryService(_categoryRepo, _transactionRepo);
 
             // Налаштування головної форми
-            mainForm.Text = $"Finance Planner - Головне меню ({SessionManager.Instance.CurrentUser?.Username})";
+            string username = userProvider.GetCurrentUsername() ?? "Unknown";
+            mainForm.Text = $"Finance Planner - Головне меню ({username})";
             mainForm.Size = new Size(950, 600);
             mainForm.MinimumSize = new Size(800, 500);
             mainForm.StartPosition = FormStartPosition.CenterScreen;
