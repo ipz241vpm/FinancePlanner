@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 
 namespace FinancePlanner.Services.Strategies
 {
@@ -7,8 +6,8 @@ namespace FinancePlanner.Services.Strategies
     {
         public decimal Calculate(List<Transaction> transactions)
         {
-            decimal income = transactions.Where(t => t.Type == "Income").Sum(t => t.Amount);
-            decimal expense = transactions.Where(t => t.Type == "Expense").Sum(t => t.Amount);
+            var income = BalanceCalculationUtils.SumByType(transactions, "Income");
+            var expense = BalanceCalculationUtils.SumByType(transactions, "Expense");
             return income - expense;
         }
     }

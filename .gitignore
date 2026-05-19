@@ -1,2 +1,40 @@
-**/obj/**
-**/bin/**
+# Build folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet
+packages/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+
+# Publish
+publish/
+
+# Coverage
+coverage/
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
